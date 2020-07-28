@@ -15,7 +15,6 @@ export const ButtonStyles = styled.a`
   display: inline-block;
 
   transition: opacity .3s;
-}
 
 &:hover,
 &:focus {
@@ -23,14 +22,13 @@ export const ButtonStyles = styled.a`
 }
 
 @media (max-width: 800px) {
-  a.ButtonLink {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--blackLighter);
-  border-radius: 0;
-  border: 0;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--blackLighter);
+    border-radius: 0;
+    border: 0;
+    text-align: center;
   }
 `;

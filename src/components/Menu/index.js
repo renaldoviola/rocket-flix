@@ -10,7 +10,7 @@ function Menu () {
         <img className="Logo" src={Logo} alt="RocketFlix" />
       </a>
 
-      <ButtonStyles className="ButtonLink" href="/">
+      <ButtonStyles as="a" className="ButtonLink" href="/">
         Novo vídeo
       </ButtonStyles>
     </nav>
