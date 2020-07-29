@@ -21,7 +21,7 @@
   right: 0;
   padding-left: 5%;
   padding-right: 5%;
-  background: var(--blackLighter);
+  background: var(--blackTopAndFooter);
   border-bottom: 2px solid var(--primary);
 }
 
